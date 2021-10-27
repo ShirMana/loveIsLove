@@ -1,0 +1,61 @@
+body {
+  background-image: url("../images/background1.jpg");
+  color: whitesmoke;
+}
+.bor_px {
+  border: 8px double black !important;
+}
+.colors {
+  animation: change 15s infinite;
+}
+.dancing {
+  font-family: "Dancing Script", cursive;
+}
+.indie {
+  font-family: "Indie Flower", cursive;
+}
+@keyframes change {
+  0% {
+    color: rgb(245, 176, 176);
+    left: 0px;
+    top: 0px;
+  }
+  20% {
+    color: rgb(253, 218, 152);
+    left: 0px;
+    top: 0px;
+  }
+  40% {
+    color: rgb(255, 255, 179);
+    left: 0px;
+    top: 0px;
+  }
+  60% {
+    color: rgb(167, 245, 167);
+    left: 0px;
+    top: 0px;
+  }
+  80% {
+    color: rgb(134, 243, 243);
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    color: rgb(245, 171, 245);
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.bor_carousel {
+  border: 40px solid whitesmoke !important;
+}
+input {
+  color: white !important;
+}
+
+@media (max-width: 958px) {
+  .dropdown-menu-right {
+    left: -12px !important;
+  }
+}
